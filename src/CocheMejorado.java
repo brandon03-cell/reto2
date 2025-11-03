@@ -78,7 +78,7 @@ public class CocheMejorado {
         this.kilometraje += km;
         this.combustibleActual -= km * this.consumo;
     }
-    public void reposar(double l){
+    public void repostar(double l){
         this.combustibleActual += l;
     }
     public double getAutonomia(){
