@@ -25,6 +25,9 @@ public class CocheMejorado {
 
     }
 
+    public CocheMejorado() {
+    }
+
     public String getMarca() {
         return marca;
     }
