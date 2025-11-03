@@ -19,6 +19,10 @@ public class CocheMejorado {
         this.marca = marca;
         this.modelo = modelo;
         this.anyoFabricación = anyoFabricación;
+        this.combustibleActual = 0.0;
+        this.consumo = 0.0;
+        this.kilometraje = 0.0;
+
     }
 
     public String getMarca() {
@@ -81,6 +85,7 @@ public class CocheMejorado {
         return this.combustibleActual/this.consumo;
     }
 
+    @Override
     public String toString(){
         return this.marca + " " + this.modelo;
     }
